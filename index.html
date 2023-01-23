@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <div class="HUD">
+        <span class="Personnage">Mario</span>
+        <span class="Monde">Monde</span>
+        <span class="Temps">Temps</span>
+        <span class="Fps">FPS</span>
+    </div>      
+    <div class="HUD">
+        <span class="Score">00000000</span>
+        <span class="Pièce">00</span>
+        <span class="Level">1-1</span>
+        <span id="timer"></span>
+        <span id="kFps"></span>
+    </div>
+    <link href="./Content/page.css" rel="stylesheet" />
+    <link href="./Content/jeux.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="mario" id="mario" onkeypress="animateScript()"></div>
+    <div class="spritesol"></div>
+    <script src="./Content/Scripts/script.js"></script>
+    <script src="./Content/Scripts/time.js"></script>
+</body>
+
+<script src="./Content/Scripts/checkfps.js"></script>
+</html>

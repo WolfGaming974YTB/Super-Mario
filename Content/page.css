@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Score;
+    src: url(./fonts/font.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#5C94FC;
+}
+.HUD {
+    color: white;
+    font-family: Score;
+    font-size: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+    /* .Monde {
+        
+    } */
+
+    /* .Temps {
+       
+    } */
+
+.mario{
+	background: url('pictures/tout.gif') no-repeat -23px -507px;
+	width: 13px;
+	height: 16px;
+}
+
+.spritesol {
+	background: url('pictures/tout.gif') repeat-y -373px -124px;
+	width: 16px;
+	height: 16px;
+}
